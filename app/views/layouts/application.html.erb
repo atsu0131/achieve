@@ -9,7 +9,8 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-default">
+  <div class="container">
+    <nav class="navbar navbar-default row">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gnavi">
@@ -30,17 +31,17 @@
         </div>
       </div>
     </nav>
-    <div class="">
-    </div>
+   </div>
 
 
     <%= yield %>
 
 
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted">dive into code</p>
-      </div>
-    </footer>
-</body>
+      <footer class="footer col-sm-6 col-md-3">
+        <div class="container">
+          <p class="text-muted">dive into code</p>
+        </div>
+      </footer>
+
+    </body>
 </html>
